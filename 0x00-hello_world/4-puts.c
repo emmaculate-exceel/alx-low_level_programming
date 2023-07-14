@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- *main : the fuction for puts
+ *main - the fuction for puts
  *puts char for some character
  *\n
  */
