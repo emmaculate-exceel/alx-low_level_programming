@@ -1,7 +1,7 @@
 #include <stdio.h>
 /*
  *main - the fuction for puts
- *puts char for some character
+ *return (0) (success)
  *\n
  */
 int main(void)
