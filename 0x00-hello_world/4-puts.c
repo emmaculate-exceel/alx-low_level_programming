@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  *main - the fuction for puts
  *return (0) (success)
  *\n

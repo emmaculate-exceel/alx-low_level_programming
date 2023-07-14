@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  * main - printf function
  * return 0 : (success)
  */
