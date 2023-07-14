@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- *main- this is the function body
- *Returns : returns 0
+ * main - entry point
+ * Return: 0 (success)
  */
 int main(void)
 {
