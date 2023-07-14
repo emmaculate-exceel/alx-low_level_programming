@@ -1,11 +1,11 @@
 #include <stdio.h>
 /*
- *this is a function of puts
- *and another of
+ *function main(void)
+ *puts char for some character
  *\n
  */
 int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle");
+	puts("\"Programming is like building a multilingual puzzle \n");
 	return (0);
 }
