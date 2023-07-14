@@ -1,8 +1,8 @@
 #include <stdio.h>
 /*
- * this is a function of puts 
- * and another of 
- * \n
+ *this is a function of puts
+ *and another of
+ *\n
  */
 int main(void)
 {
