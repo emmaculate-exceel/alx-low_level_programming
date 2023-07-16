@@ -6,6 +6,8 @@
 int main(void)
 {
 	char b;
+
+	a = 'A';
 	int a;
 	long int c;
 	long long int d;
