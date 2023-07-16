@@ -6,9 +6,7 @@
  */
 int main(void)
 {
-	char quote[] = "and the piece of art is useful\" -Dora Korpar, 2015-10-19,\n";
-
-	fprintf(stdout, %s , quote);
+	printl("and the piece of art is useful\" -Dora Korpar, 2015-10-19,\n");
 
 	return (1);
 }
