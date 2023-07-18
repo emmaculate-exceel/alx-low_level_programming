@@ -1,1 +1,1 @@
-variables, if else and while control structure.
+C variables and if else statement 
