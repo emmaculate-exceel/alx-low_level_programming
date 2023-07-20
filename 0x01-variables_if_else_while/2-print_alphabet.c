@@ -1,17 +1,16 @@
 #include <stdio.h>
-
 /**
  * main - prints alpha in lower case
  * Return: Always 0
  */
 int main(void)
 {
-	char l;
+	char i;
 
-	for (l = 'a'; l <= 'z'; l++)
+	for (i = 'a'; i <= 'z'; i++)
 	{
-		putchar(l);
+		putchar(i);
 	}
-	putchar("l \n");
+	putchar("i \n");
 	return (0);
 }
