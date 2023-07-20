@@ -8,7 +8,7 @@
 int _islower(int c)
 {
 
-	while (_islower(c))
+	if (_islower(c))
 	{
 		return (1);
 	}
