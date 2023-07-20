@@ -9,7 +9,8 @@ int _islower(int c)
 {
 
 	while (_islower(c))
-
+	{
 		return (1);
+	}
 	return (0);
 }
