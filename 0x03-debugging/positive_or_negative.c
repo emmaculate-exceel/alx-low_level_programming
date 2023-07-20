@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - function for positive and negative val
+ * positive_or_negative - post and neg val
  * @i: positive_or_negative(int i)
  * Return: 0
  */
 
-int positive_or_negative(int i)
+void positive_or_negative(int i)
 {
 	if (i > 0)
 		printf("%d is postive", i);
@@ -17,6 +17,5 @@ int positive_or_negative(int i)
 	else
 		printf("%d is negative", i);
 
-	return (0);
 }
 
