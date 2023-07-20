@@ -1,4 +1,4 @@
-#include "main.h"
+#include <ctype.h>
 /**
  * _islower - _islower character for lowercase
  * @c: this is my header for my details
