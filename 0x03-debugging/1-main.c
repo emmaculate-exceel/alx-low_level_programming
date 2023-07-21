@@ -10,12 +10,14 @@ int main(void)
 
 	printf("Infinite loop incoming :(\n");
 	
-	/*i = 0; the  avoided infinite loop
+	/**
+	* i = 0; the  avoided infinite loop
 	* looped space 	
 	*while (i < 10) loop
 	*{ curly braces	
 	*	putchar(i); putchar
-	*}*/
+	*}
+	*/
 	printf("Infinite loop avoided! \\o/\n");
 
 	return (0);
