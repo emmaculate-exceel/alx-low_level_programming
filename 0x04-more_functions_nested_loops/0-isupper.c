@@ -1,14 +1,15 @@
 #include "main.h"
-#include "main.h"
+#include <ctype.h>
 /**
- * main - _isupper
- * Return: _isupper is the code
+ * _isupper - _isupper
+ * @c: caller
+ * Return: 0
  */
 int _isupper(int c)
 {
 
 	if (_isupper(c))
-	
+
 		return (1);
 	else
 		return (0);
