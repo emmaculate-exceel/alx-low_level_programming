@@ -1,12 +1,11 @@
-#include <stdio.h>
+#include "main.h"
 #include "main.h"
 /**
  * main - _isupper
  * Return: _isupper is the code
  */
-int main(void)
+int _isupper(int c)
 {
-	char c = 'A';
 
 	if (_isupper(c))
 	
