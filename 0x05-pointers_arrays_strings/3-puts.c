@@ -1,5 +1,5 @@
 #include "main.h"
-#include <unistd.h>
+#include <stdio.h>
 /**
  * _puts - prints
  * @str: string 
@@ -8,7 +8,5 @@
 
 void _puts(char *str)
 {
-	
-
-	_puts(str);
+	puts(str);
 }
