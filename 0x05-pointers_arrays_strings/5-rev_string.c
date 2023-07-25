@@ -8,6 +8,8 @@
  */
 
 void rev_string(char *s)
-{
-	rev_string(s);
+{	
+	char *c;
+	c = s;
+	rev_string(c);
 }
