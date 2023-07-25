@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * _puts - prints
- * @str: string 
+ * @str: string
  * Return: 0
  */
 

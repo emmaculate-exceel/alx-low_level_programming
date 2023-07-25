@@ -1,6 +1,7 @@
 #include <unistd.h>
 /**
- * main - write the character c to stdout
+ * _putchar - write the character c to stdout
+ * @c: caller
  * Return: 0;
  */
 
