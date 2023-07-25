@@ -12,10 +12,9 @@ void print_rev(char *str)
 
 	leng = 0;
 
-	while (str[leng] == "\0")
-	{
-		
-	leng++;
+	while (str[leng] != '\0')
+	{	
+		leng++;
 	}
 	leng--;
 	while (leng >= 0)
@@ -24,6 +23,6 @@ void print_rev(char *str)
 		leng--;
 	}
 
-	_putchar("\n");
+	_putchar('\n');
 
 }
