@@ -10,7 +10,7 @@
 
 char *_strcat(char *dest, char *src)
 {
-	return(strcat(src, dest));
+	return(strcat(dest, src));
 
 return (0);
 }
