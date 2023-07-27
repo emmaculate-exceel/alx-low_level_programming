@@ -1,1 +1,0 @@
-Arrays , pointers and string for C programming language 
