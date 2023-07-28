@@ -1,7 +1,7 @@
 #include "main.h"
 #include <string.h>
 /**
- * _strcpy - check code
+ * _strncpy - check code
  * @dest: destination
  * @src: source
  * @n: number of int
