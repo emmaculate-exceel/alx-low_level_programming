@@ -1,7 +1,7 @@
 #include "main.h"
 #include <string.h>
 /**
- * strncat - concate strings
+ * _strncat - concate strings
  * @dest: destination
  * @src: source
  * @n: number of value
@@ -14,4 +14,3 @@ char *_strncat(char *dest, char *src, int n)
 
 	return (dest);
 }
-			
