@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - 6 size of bytes on a system
- * Return:0 
+ * Return:0
  */
 
 int main(void)
