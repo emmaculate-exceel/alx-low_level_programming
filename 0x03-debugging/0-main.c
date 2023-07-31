@@ -2,7 +2,7 @@
 
 /**
  * main - check function that prints 1
- * Return
+ * Return: 0
  */
 
 int main(void)
