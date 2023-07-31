@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * main - number 1 debugging
- *
- * return:0
+ * main - check function that prints 1
+ * Return
  */
 
 int main(void)
