@@ -1,11 +1,11 @@
 #include "main.h"
 /**
  * _isalpha - alpha
- * @c: c 
+ * @c: c
  * Return: 0
  */
 
-int _isalpha(int c) 
+int _isalpha(int c)
 {
 	return (0);
 }

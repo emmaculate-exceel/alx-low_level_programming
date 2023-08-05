@@ -3,7 +3,7 @@
  * _strcat - check code
  * @dest: dest
  * @src:  src
- * @n: n
+ * Return: 0
  */
 char *_strcat(char *dest, char *src)
 {
