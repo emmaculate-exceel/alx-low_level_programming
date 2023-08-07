@@ -2,6 +2,8 @@
 #include "main.h"
 /**
  * main - argc
+ * @argc: count
+ * @argv: vector
  * Return: 0
  */
 
