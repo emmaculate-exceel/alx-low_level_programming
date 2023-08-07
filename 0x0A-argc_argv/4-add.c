@@ -1,25 +1,23 @@
-#include <stdio.h>
 #include <stdlib.h>
+#include <stdio.h>
 #include "main.h"
 /**
- * main - multiply code
+ * main - addittional plus
  * @argc: count
  * @argv: vector
  * Return: 0
  */
-
 int main(int argc, char *argv[])
 {
-	int mul1;
-	int mul2;
+	int p1;
+	int p2;
 	int result;
 
-	mul1 = atoi(argv[1]);
-	mul2 = atoi(argv[2]);
-
+	p1 = atoi(argv[1]);
+	p2 = atoi(argv[2]);
+	result = p1 + p2;
 	if (argc == 3)
 	{
-		result = mul1 * mul2;
 		printf("%d\n", result);
 	}
 	else
@@ -27,5 +25,6 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
+
 	return (0);
 }
