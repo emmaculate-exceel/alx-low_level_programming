@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - check the code 
+ * main - check the code
  * @argc: count
  * @argv: vector
  * Return: 0
