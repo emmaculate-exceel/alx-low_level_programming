@@ -12,19 +12,17 @@ int main(int argc, char *argv[])
 {
 	int mul1;
 	int mul2;
-	int result;
-
-	mul1 = atoi(argv[1]);
-	mul2 = atoi(argv[2]);
 
 	if (argc == 3)
 	{
-		result = mul1 * mul2;
-		printf("%d\n", result);
+		mul1 = atoi(argv[1]);
+		mul2 = atoi(argv[2]);
+		printf("%d\n", mul1 * mul2);
+		return (0);
 	}
 	else
 	{
 		printf("Error\n");
 	}
-	return (0);
+	return (1);
 }

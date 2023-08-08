@@ -16,15 +16,17 @@ int main(int argc, char *argv[])
 	p1 = atoi(argv[1]);
 	p2 = atoi(argv[2]);
 	result = p1 + p2;
-	if (argc == 3)
-	{
-		printf("%d\n", result);
-	}
-	else
-	{
-		printf("Error\n");
-		return (1);
-	}
 
-	return (0);
+	if (isdigit == argv[1] && isdigit == argv[2]) 
+		if (argc == 3)
+		{
+			printf("%d\n", result);
+		}
+		else
+		{
+			printf("Error\n");
+			return (1);
+		}
+
+		return (0);
 }
