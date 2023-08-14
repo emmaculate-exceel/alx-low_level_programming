@@ -1,4 +1,4 @@
-#include <stdlib.h>
+#include <stdlib.h>:
 #include <stdio.h>
 #include "main.h"
 /**
@@ -17,8 +17,7 @@ int main(int argc, char *argv[])
 	p2 = atoi(argv[2]);
 	result = p1 + p2;
 
-	if (isdigit == argv[1] && isdigit == argv[2]) 
-		if (argc == 3)
+		if (argv[] == 3)
 		{
 			printf("%d\n", result);
 		}
