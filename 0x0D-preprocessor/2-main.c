@@ -5,10 +5,7 @@
  */
 
 int main(void)
-{	
-#define __FILE__ 
+{
 
-	*a = __FILE__;
-	putchar(a);
 	return (0);
 }
