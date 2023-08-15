@@ -1,7 +1,7 @@
 #include <unistd.h>
 #include <stdio.h>
 /**
- * main - print the file name
+ * main - print the file name as input
  * Return: 0
  */
 int _putchar(char c)
