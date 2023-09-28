@@ -2,7 +2,8 @@
 /**
  * _strlen_recursion - check length of strings
  *
- * @c: strings
+ * @s: strings
+ * Return: n
  */
 
 int _strlen_recursion(char *s)
