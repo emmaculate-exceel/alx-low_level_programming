@@ -19,7 +19,7 @@ int _sqrt_recursion(int n)
  * sqrt_fun - function to solve _sqrt_recursion
  * @sq: number to determine square root
  * @n:  number
- * Return: square root if natural 
+ * Return: square root if natural
  */
 
 int sqrt_fun(int n, int sq)
