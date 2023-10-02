@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- * main - main function 
+ * main - main function
  * @argc: argument count
  * @argv: argument vector
  * Return: Always 0
