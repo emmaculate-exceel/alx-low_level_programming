@@ -13,8 +13,8 @@ int main(void)
 	{
 		for (b = 1; b <= 99; b++)
 		{
-			if (b > a)
-			{
+			/*if (b > a)*/
+			/*{*/
 				putchar ('0' + (a / 10));
 				putchar ('0' + (a % 10));
 				putchar (' ');
@@ -25,7 +25,7 @@ int main(void)
 				putchar (',');
 				putchar (' ');
 				}
-			}
+			/*}*/
 		}
 	}
 	putchar ('\n');
