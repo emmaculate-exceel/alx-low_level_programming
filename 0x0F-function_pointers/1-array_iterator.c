@@ -5,11 +5,11 @@
  * array_iterator - executes a function of array
  * @array: iteration count
  * @size: size of arr
- * @action: pointer function 
+ * @action: pointer function
  */
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
-	long unsigned int count;
+	unsigned long int count;
 
 	if (!action || !array)
 		return;
