@@ -14,14 +14,16 @@ int sum_them_all(const unsigned int n, ...)
 	va_list list;
 
 	if (n == 0)
-		return (0);
-
+	{
+	return (0);
+	}
 	va_start(list, n);
 
 	for (count = 0; count < n; count++)
-		total += va_arg(list, int);
-
-	va_end(list); 
+	{
+	total += va_arg(list, int);
+	}
+	va_end(list);
 
 	return (total);
 }
