@@ -1,4 +1,4 @@
-#include "list.h"
+#include "lists.h"
 /**
  * print_list - singly linked lists
  * @h : malloc - (malloc'ed string)
