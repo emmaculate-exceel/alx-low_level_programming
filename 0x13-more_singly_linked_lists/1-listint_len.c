@@ -2,7 +2,7 @@
 
 /**
  * listint_len - length of linked list
- * @h: head 
+ * @h: head
  *
  * Return: count
  */
