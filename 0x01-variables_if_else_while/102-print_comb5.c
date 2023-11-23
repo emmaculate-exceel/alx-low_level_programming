@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - check code 102
+ * main - perform a numeric order of digits
+ * starting from 00:00 to 98:99
  * Return: 0
  */
 
@@ -13,7 +14,7 @@ int main(void)
 	{
 		for (b = 1; b <= 99; b++)
 		{
-			/*if (b > a)*/
+			/*if (a !=  > a)*/
 			/*{*/
 				putchar ('0' + (a / 10));
 				putchar ('0' + (a % 10));
