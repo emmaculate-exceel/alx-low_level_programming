@@ -14,8 +14,8 @@ int main(void)
 	{
 		for (b = 1; b <= 99; b++)
 		{
-			/*if (a !=  > a)*/
-			/*{*/
+			if (a !=  > b)
+			{
 				putchar ('0' + (a / 10));
 				putchar ('0' + (a % 10));
 				putchar (' ');
@@ -26,7 +26,7 @@ int main(void)
 				putchar (',');
 				putchar (' ');
 				}
-			/*}*/
+			}
 		}
 	}
 	putchar ('\n');
