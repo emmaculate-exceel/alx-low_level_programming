@@ -6,13 +6,13 @@
  */
 void times_table(void)
 {
-	int rows, cols;
+	int mul, rows, cols;
 
 	for (rows = 0; rows < 10; rows++)
 	{
 		for (cols = 0; cols < 10; cols++)
 		{
-			int mul = cols * rows;
+			mul = cols * rows;
 
 			if (cols != 0)
 			{
@@ -22,12 +22,12 @@ void times_table(void)
 			if (mul < 10)
 			{
 				_putchar(' ');
-				_putchar(mul + 48)
+				_putchar(mul + 48);
 			}
 			else
-			}
+			{
 				_putchar(mul / 10 + 48);
-				_putchar(mul % 10 + 48)
+				_putchar(mul % 10 + 48);
 			}
 		}
 	_putchar('$');
