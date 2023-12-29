@@ -19,9 +19,12 @@ void times_table(void)
 				_putchar(',');
 				_putchar(' ');
 			}
-			if (mul < 10)
+			if (mul < 10 && cols != 0)
 			{
 				_putchar(' ');
+			}
+			if (mul < 10)
+			{
 				_putchar(mul + 48);
 			}
 			else
