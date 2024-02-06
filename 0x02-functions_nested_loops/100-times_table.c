@@ -19,10 +19,10 @@ void print_times_table(int n)
 
 			if (mul < 10 && row != 0)
 				_putchar(0x20);
-			if (mul < 100 & row != 0)
+			if (mul < 100 && row != 0)
 			{
 				_putchar(0x20);
-			{
+			}
 			if (row != 0)
 			{
 				_putchar(0x20);
