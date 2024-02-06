@@ -2,30 +2,28 @@
 /**
  *print_times_table - print time table nth time
  *@n: number of times for the rows and the column
- *
  *Return: Void
  */
-
+void print_times_table(int n);
 void print_times_table(int n)
-{
-  void print_times_table(int n)
 {
 	int mul, row, col;
 
 	if (n > 15 || n < 0)
-	{
-		printf("Not a valid input");
 		return;
-	}
-	for (col = 0; col < n; col++)
+	for (col = 0; col <= n; col++)
 	{
-		for (row = 0; row < n ; row++)
+		for (row = 0; row <= n ; row++)
 		{
 			mul = row * col;
 
 			if (mul < 10 && row != 0)
 				_putchar(0x20);
-			if (mul != 0)
+			if (mul < 100 & row != 0)
+			{
+				_putchar(0x20);
+			{
+			if (row != 0)
 			{
 				_putchar(0x20);
 				_putchar(0x2C);
