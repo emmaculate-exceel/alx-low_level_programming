@@ -11,7 +11,10 @@ void fibonacci(void)
 
 	for (i = 0; i < 50; i++)
 	{
-		printf("%ld, ", c);
+		if (i > 0)
+		   printf(", ");
+
+		printf("%ld", c);
 
 		a = b;
 		b = c;
