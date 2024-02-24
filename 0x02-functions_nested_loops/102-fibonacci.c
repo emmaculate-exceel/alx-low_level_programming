@@ -7,11 +7,11 @@
 
 void fibonacci(void)
 {
-	long long int a, b = 1, c = 1, i;
+	long int a, b = 1, c = 1, i;
 
 	for (i = 0; i < 50; i++)
 	{
-		printf("%d, ", c);
+		printf("%ld, ", c);
 
 		a = b;
 		b = c;
