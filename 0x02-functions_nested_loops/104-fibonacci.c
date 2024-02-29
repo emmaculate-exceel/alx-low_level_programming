@@ -11,10 +11,10 @@ int main(void)
 
 	for (i = 1; i < 99; i++)
 	{
-	    printf("%lu, ", c);
-	    a = b;
-	    b = c;
-	    c = a + b;
+		printf("%lu, ", c);
+		a = b;
+		b = c;
+		c = a + b;
 	}
 	return (0);
 }
