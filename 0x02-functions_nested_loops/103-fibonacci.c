@@ -7,7 +7,7 @@
 
 int fibonacci(int n)
 {
-	long int i, a = 0, b = 1, c, sum;
+	unsigned long int i, a = 0, b = 1, c, sum;
 
 	for (i = 1; i < n; i++)
 	{
