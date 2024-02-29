@@ -2,7 +2,7 @@
 /**
  * fibonacci- do the sum of fibonacci terms
  * @n: value to be passed
- * Return : Always 0;
+ * Return: Always 0;
  */
 
 int fibonacci(int n)
@@ -26,7 +26,7 @@ int fibonacci(int n)
 /**
  *main - main function for the code
  *
- *Return : always 0;
+ *Return: always 0;
  */
 int main(void)
 {
