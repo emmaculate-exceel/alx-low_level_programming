@@ -5,7 +5,7 @@
  * Return: Always 0;
  */
 
-int fibonacci(int n)
+int fibonacci(unsigned int n)
 {
 	unsigned long int i, a = 0, b = 1, c, sum;
 
