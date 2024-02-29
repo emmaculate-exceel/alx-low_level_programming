@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * main - do the sum of fibonacci terms
- *
+ * fibonacci- do the sum of fibonacci terms
+ * @n: value to be passed
  * Return : Always 0;
  */
 
