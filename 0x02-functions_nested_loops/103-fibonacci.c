@@ -5,15 +5,15 @@
  * Return: Always 0;
  */
 
-int fibonacci(unsigned int n)
+int fibonacci(unsigned long int n)
 {
 	unsigned long int i, a = 0, b = 1, c, sum;
 
 	for (i = 1; i < n; i++)
 	{
-		if (i % 2 == 0)
+		if (c % 2 == 0)
 		{
-			sum = sum + 1;
+			sum += c;
 		}
 	a = b;
 	b = c;
@@ -30,6 +30,6 @@ int fibonacci(unsigned int n)
  */
 int main(void)
 {
-	fibonacci(4000000);
+	fibonacci(33);
 	return (0);
 }
