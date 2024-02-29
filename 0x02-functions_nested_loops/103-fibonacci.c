@@ -13,15 +13,11 @@ int fibonacci(int n)
 	{
 		if (i % 2 == 0)
 		{
-
 			sum = sum + 1;
-
 		}
-		
 	a = b;
 	b = c;
 	c = a + b;
-	
 	}
 	printf("%ld\n", sum);
 	return (0);
@@ -32,10 +28,8 @@ int fibonacci(int n)
  *
  *Return : always 0;
  */
-
 int main(void)
 {
 	fibonacci(4000000);
-
 	return (0);
 }
