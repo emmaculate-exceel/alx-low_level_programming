@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	unsigned long int i, a, b = 1, c = 1, sum;
+	unsigned long int i, a, b = 1, c = 1;
 
 	for (i = 1; i < 99; i++)
 	{
