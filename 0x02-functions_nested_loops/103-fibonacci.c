@@ -7,20 +7,20 @@
 
 int fibonacci(unsigned long int n)
 {
-	unsigned long int i, a = 0, b = 1, c, sum;
+	unsigned long int i, a = 0, b = 1, c = 1, sum;
 
-	for (i = 1; i < n; i++)
+	for (i = 1; i <= n; i++)
 	{
 		if (c % 2 == 0)
 		{
-			sum += c;
+			sum = sum + c;
 		}
 	a = b;
 	b = c;
 	c = a + b;
 	}
 	printf("%lu\n", sum);
-	return (0);
+	return (sum);
 }
 
 /**
