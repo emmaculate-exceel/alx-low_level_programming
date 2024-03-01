@@ -7,14 +7,22 @@
 
 int main(void)
 {
-	unsigned long int i, a, b = 1, c = 1;
+	unsigned long int i, a = 1, b = 2, count;
 
-	for (i = 1; i < 99; i++)
+	printf("%lu, %lu, ", a, b);
+	for (count = 3; count < 99; count++)
 	{
-		printf("%lu, ", c);
+		count = a + b;
+		if (count < 98)
+		{
+			printf("%lu, ", c);
+		}
+		else
+		{
+			printf("%lu\n");
+		}
 		a = b;
-		b = c;
-		c = a + b;
+		b = count;
 	}
 	return (0);
 }
