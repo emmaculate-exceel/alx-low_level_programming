@@ -10,16 +10,16 @@ int main(void)
 	unsigned long int i, a = 1, b = 2, count;
 
 	printf("%lu, %lu, ", a, b);
-	for (count = 3; count < 99; count++)
+	for (i = 3; i < 99; i++)
 	{
 		count = a + b;
-		if (count < 98)
+		if (i < 98)
 		{
-			printf("%lu, ", c);
+			printf("%lu, ", count);
 		}
 		else
 		{
-			printf("%lu\n");
+			printf("%lu\n", count);
 		}
 		a = b;
 		b = count;
