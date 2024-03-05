@@ -1,7 +1,8 @@
 #include "main.h"
+#define INC 1000000000
 /**
  * main - prints the first 98 fibonacci numbers
- *
+ * the use of long long is prohibitted
  * Return: always 0;
  */
 
