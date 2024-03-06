@@ -14,7 +14,7 @@ void print_remaining_days(int month, int day, int year)
 {
     if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0))
     {
-      if ((month * 100 + day) >= 59) 
+      if ((month - 3)* 31 + day >= 59) 
         {
             day++;
         }
