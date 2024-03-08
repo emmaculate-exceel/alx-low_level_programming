@@ -23,10 +23,10 @@ void print_diagonal(int n)
 			if (j == i)
 				_putchar('\\');
 			else if (j < i)
-				_putchar(0x20);
+				_putchar(' ');
 			}
 		}
-		_putchar(0x0A);
+		_putchar('\n');
 	}
 
 	_putchar(0x0A);
