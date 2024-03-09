@@ -1,0 +1,16 @@
+#include "main.h"
+/**
+ * main - print triangles
+ *@n: numbers of time to print triangles
+ *
+ *Return: Always 0;
+ */
+int print_triangle(int size)
+{
+	int i, j;
+
+	for (i = 0; i < n; i++)
+	{
+		for (j = 0; j < n; j++)
+		{
+			if ( 
