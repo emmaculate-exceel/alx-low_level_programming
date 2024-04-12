@@ -1,1 +1,1 @@
-search algorithms in C programming language
+search algorithm in C programming language
