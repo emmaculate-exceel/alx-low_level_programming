@@ -1,4 +1,4 @@
-#include 'search_algos.h'
+#include "search_algos.h"
 /**
  * linear_search - function for searching linearly
  * @array: the arrays of element to search
@@ -15,12 +15,12 @@ int linear_search(int *array, size_t size, int value)
 		return (-1);
 	}
 
-	for (x = 0; x < size; x++)
+	for (sum = 0; sum < size; sum++)
 	{
-		printf("Value checked array[%li] = [%i]\n", x, array[x]);
-		if (array[x] == value)
+		printf("Value checked array[%li] = [%i]\n", sum, array[sum]);
+		if (array[sum] == value)
 		{
-			return (x);
+			return (sum);
 		}
 	}
 	return (-1);
