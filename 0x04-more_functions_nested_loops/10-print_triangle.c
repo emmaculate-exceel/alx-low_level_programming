@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * print_triangle - print a triangle aligned right, using '#'
  * this project is yet to be reviewed this is a copied content
