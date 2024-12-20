@@ -1,1 +1,1 @@
-C programming language for beginners
+Understanding the basics of C programming language for beginners
