@@ -1,1 +1,1 @@
-this a readme file for debugging section of the code for C files 
+Generally Understanding the Act of debugging in computer programming which is an integral skill for every software engineering student 
