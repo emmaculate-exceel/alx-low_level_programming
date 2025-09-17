@@ -13,21 +13,13 @@ void rev_string(char *s)
 	int length = _putchar(s);
 	int end = length - 1;
 
-  while (s[length] != '\0')
-  {
-      length++;
-  }
-  
-
-	while (start < end)
-	{
-		char temp = s[start];
-
-		s[start] = s[end];
-		s[end] = s[length];
-		s[length] = temp;
-
-		start++;
-		end--;
-	}
+  char temp;
+  while (start < end)
+    {
+      temp = s[start];
+      s[start] = s[end];
+      s[end] = temp;
+      start++;
+      end--;
+    }
 }
