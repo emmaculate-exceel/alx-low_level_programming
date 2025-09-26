@@ -8,21 +8,15 @@
 
 void print_rev(char *str)
 {
-	int leng;
+	int reverse;
+	reverse = 0;
 
-	leng = 0;
-
-	while (str[leng] != '\0')
+	while (str[reverse] != '\0')
 	{
-		leng++;
+		reverse++;
 	}
-	leng--;
-	while (leng >= 0)
+	while (str[reverse] == -1)
 	{
-		_putchar(str[leng]);
-		leng--;
+		reverse--;
 	}
-
-	_putchar('\n');
-
 }
