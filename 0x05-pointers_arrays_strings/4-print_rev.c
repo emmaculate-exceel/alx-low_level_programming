@@ -18,7 +18,7 @@ void print_rev(char *str)
 	}
 	while (str[reverse] == -1)
 	{
-		reverse--;
+		str[reverse]--;
 		printf("%c", str[reverse]);
 	}
 }
