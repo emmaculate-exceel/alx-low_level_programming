@@ -1,3 +1,3 @@
-C Low level programming language
+Low level programming language
 for procedural languages
 and funtional programming
